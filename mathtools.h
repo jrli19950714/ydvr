@@ -37,5 +37,17 @@ class CubicSpline: public DoubleFunction1d {
     CubicSpline(const int&, const VectorXd&, const VectorXd&, const double&, const double&);
 };
 
+class CubicSplineXd{
+  private:
+    VectorXd x_;
+    VectorXd y_;
+    MatrixXd z_;
+    int X_
+  public:
+    double calc(const vector<double>&) const;
+    
+
+};
+
 
 #endif 
