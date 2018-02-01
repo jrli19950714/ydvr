@@ -3,7 +3,6 @@
 
 class molecule{
   public:
-    virtual 
     
   private:
 };
